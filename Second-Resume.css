@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.First-half {
+  background-color: #fef5e7;
+  flex: 1;
+  font-size: 1.6rem;
+}
+.container-01 {
+  border: 3px solid black;
+  margin: 3rem 3rem;
+}
+.Profile-picture {
+  height: 20rem;
+  margin: 3rem 5rem;
+  margin-bottom: 1.6rem;
+}
+.logo {
+  margin-left: 2rem;
+  height: 24px;
+  width: 24px;
+  background-color: rgb(243, 243, 243);
+  padding: 0.1rem;
+  margin-bottom: 0.5rem;
+  margin-right: 0.4rem;
+}
+li {
+  list-style: none;
+  padding-bottom: 0.3rem;
+}
+.sub-section {
+  display: flex;
+  align-items: center;
+}
+.info {
+  margin-left: 3rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Education {
+  margin-top: 3rem;
+  margin-left: 2rem;
+  line-height: 1;
+  padding-bottom: 0.2rem;
+}
+.heading {
+  font-size: 23px;
+  margin-bottom: 0.4rem;
+  background-color: rgb(224, 224, 224);
+  padding: 0.1rem 0.3rem;
+  display: inline-block;
+}
+h1,
+h3,
+.para {
+  margin-left: 2rem;
+}
+h1 {
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+h3 {
+  color: #935116;
+  margin-bottom: 0.5rem;
+}
+body {
+  display: flex;
+  flex-direction: row;
+}
+.sec-logo {
+  height: 24px;
+  width: 24px;
+  margin-left: 2rem;
+}
+.Profile {
+  display: flex;
+  column-gap: 0.2rem;
+  margin: 1rem 0;
+}
+.Profile h2,
+.work h2 {
+  font-weight: 400;
+}
+.work {
+  display: flex;
+  margin: 1rem 0;
+}
+.Second-half {
+  /* flex: 4; */
+  max-width: 100rem;
+  font-size: 1.7rem;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 60px auto;
+}
+.container {
+  padding: 10px 10px;
+  position: relative;
+  width: 50%;
+}
+.text-box {
+  background-color: #f0b27a;
+  padding: 2rem 3rem;
+}
